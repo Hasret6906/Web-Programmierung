@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Produktsuche</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+</head>
+<body>
+    <header>
+    <div class="logo">
+        <img src="logo.jpg" alt="logo">
+    </div>
+    <br/>
+    <div class="navigation">
+        <ul>
+            <li><a href="API - Kopie.html" >Home</a></li>
+            <li><a href="#/ueberuns" >Über uns</a></li>
+            <li><a href="#/benutzer" >Benutzer</a></li>
+        </ul>
+    </div>
+    
+    <div class="navi" id="navi">
+       
+    </div>
+    
+        <div class="navi">
+          
+            <nav>
+                <ul>
+                    <li>
+                        <p><a href="API - Kopie.html">Home</a></p>
+                    </li>
+                    <li>
+                        <p><a href="#/ueberuns">Über uns</a></p>
+                    </li>
+                    <li>
+                        <p><a href="#/benutzer">Benutzer</a></p>
+                    </li>
+                </ul>
+            </nav>
+            
+        </div>
+    </header>
+    <div class="img" id="img">
+        <img src="1.jpg" alt="parf" height="80px" width="200px">
+        <img src="2.jpg" alt="Herunterladen" height="80px" width="200px">
+        <img src="3.jpg" alt="L" height="80px" width="200px">
+        <img src="4.jpg" alt="p" height="80px" width="200px">
+        <img src="5.jpg" alt="u" height="80px" width="200px">
+    </div>
+    <main>
+        <section id="search-page">
+            <br/>
+           <div class="content-container">
+            <p id="content-container">Duft und Glanz: Entdecken Sie unsere Parf&uumlms und Hautpflegekollektion</p>
+        </div>
+            <div class="search-bar" id="search-bar">
+                <input type="text" id="search-input" placeholder="Suche nach Parfüm und Skincare Produkten...">
+                <button onclick="sucheprodukt()">Suchen</button>
+            </div>
+            <br/>
+            <div id="results" class="results">
+                
+            </div>
+            <div id="product-details" class="product-details">
+        </section>
+    </main>
+    <main>
+        <section id="ueberuns" class="page" style="display: none;">
+            <h2>Über uns</h2>
+            <p>Wir bieten Parfüme und Skincare-Produkte an. Unsere Produkte werden sorgfältig ausgewählt, um höchste Qualität und Kundenzufriedenheit zu gewährleisten.</p>
+            <p>Drücken Sie auf Kunden, um mehr über unsere Ansprechpersonen zu erfahren</p>
+            
+        </section>
+        
+    </main>
+    <main>
+
+        <section id="benutzer" class="page" style="display: none;">
+            <h2>Benutzer</h2>
+            <br/>
+            
+            <br/>
+            <ul id="user-list"></ul>
+            <br/>
+
+            </section>
+
+       
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
